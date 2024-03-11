@@ -1,4 +1,4 @@
-# UC Davis EEC289 HW3
+# UC Davis EEC289Q HW3
 
 2024 Winter Quarter
 
