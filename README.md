@@ -1,4 +1,6 @@
-# UC Davis EEC289_hw3
+# UC Davis EEC289 HW3
+
+2024 Winter Quarter
 
 I use the **Simulated Annealing (SA)** algorithm to solve the **Traveling Salesman Problem (TSP)**. The algorithm is implemented by Python. I found that my loading function to load the data from the two given .txt files is slow but the saving and loading function by Numpy is quick. So I use a pre-loading function to save the execution time. 
 
