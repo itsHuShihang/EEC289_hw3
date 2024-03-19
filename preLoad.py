@@ -11,7 +11,7 @@ node_array_eu=np.zeros((1,3))
 
 def getdistmat(node_array):
     num = 1000
-    dist_array = np.zeros((num,num)) #52X52距离矩阵
+    dist_array = np.zeros((num,num))
     for row in node_array:
         i = int(row[0]-1)
         j = int(row[1]-1)
@@ -40,7 +40,7 @@ with open(FILE_RD) as f:
 node_array_rd=np.delete(node_array_rd,0,axis=0)
 print("node_array_shape:",np.shape(node_array_rd))
 
-dist_array_rd = getdistmat(node_array_rd) #得到距离矩阵
+dist_array_rd = getdistmat(node_array_rd)
 # print("distmat:",dist_array_rd) 
 print("dismat_shape:",np.shape(dist_array_rd))
 
@@ -73,7 +73,7 @@ with open(FILE_EU) as f:
 node_array_eu=np.delete(node_array_eu,0,axis=0)
 print("node_array_shape:",np.shape(node_array_eu))
 
-dist_array_eu = getdistmat(node_array_eu) #得到距离矩阵
+dist_array_eu = getdistmat(node_array_eu)
 # print("distmat:",dist_array) 
 print("dismat_shape:",np.shape(dist_array_eu))
 
